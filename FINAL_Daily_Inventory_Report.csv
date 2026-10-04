@@ -1,0 +1,6 @@
+scan_id,item_name,scan_date,weight_kg,supplier_name,needs_review
+101,Pallet Jack,2026-10-04,120.5,Munich Forklift Co.,✅ No
+102,Cardboard Boxes,2026-10-04,450.0,Berlin Packaging,✅ No
+103,Cardboard Boxes,2026-10-04,450.0,Berlin Packaging,✅ No
+104,Stretch Wrap,,0.0,Berlin Packaging,🚨 YES
+105,Unknown Freight,2026-10-05,50.0,UNASSIGNED,🚨 YES
