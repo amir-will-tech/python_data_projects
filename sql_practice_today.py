@@ -85,5 +85,16 @@ print("\n=======================================================")
 print("  REPORT 2: HEAVY FREIGHT WAREHOUSES (> 1000 KG)       ")
 print("=======================================================")
 print(df_heavy_freight)
+# -------------------------------------------------------------
+# STEP 5: LOAD (Export Automated Reports to CSV)
+# -------------------------------------------------------------
+df_audit.to_csv("logistics_audit_report.csv", index=False)
+df_heavy_freight.to_csv("heavy_freight_report.csv", index=False)
+
+print("\n=======================================================")
+print("  ✅ ETL PIPELINE COMPLETE: REPORTS EXPORTED TO CSV    ")
+print("=======================================================\n")
+
+conn.close()
 
 conn.close()
