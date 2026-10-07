@@ -29,3 +29,11 @@ The pipeline ingests raw logistics data, cleans it, applies business logic to fl
 
 ## 🚀 Big Data Stress Test
 The system includes a data generation script capable of building a **100,000-row SQLite database** in seconds. The ETL pipeline successfully processes, cleans, and filters all 100,000 records in under 3 seconds, proving high efficiency over traditional manual spreadsheet methods.
+
+
+
+
+
+
+## 📊 Power BI Executive Dashboard
+![Logistics Dashboard](dashboard.png)
