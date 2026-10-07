@@ -45,7 +45,7 @@ df_clean['critical_flag'] = np.where(
 print("💾 Filtering and exporting critical report...")
 df_critical = df_clean[df_clean['critical_flag'] == "YES"]
 
-df_critical.to_csv("critical_shipments_audit.csv", index=False)
+df_critical.to_csv("critical_shipments_audit.csv", index=False, sep=";", decimal=",")
 
 print(f"✅ DONE! Found {len(df_critical)} critical shipments out of {len(df_clean)} total.")
 conn.close()
